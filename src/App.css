@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: rgb(6, 6, 70);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.alphabetboard {
+  height: 40vh;
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: green;
+}
+.time,
+.header {
+  margin: 2%;
+}
+.alphabetboard > h1 {
+  font-size: 5rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.inputsection > input {
+  width: 20rem;
+  height: 2rem;
+}
+.inputsection > button {
+  height: 2.5rem;
+  color: white;
+  background-color: rgb(202, 87, 106);
+  cursor: pointer;
+  border: none;
+}
+.App-link {
+  color: #61dafb;
+}
